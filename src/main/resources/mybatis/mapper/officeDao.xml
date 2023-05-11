@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jeeplus.modules.dao.OfficeDao">
+
+
+    <select id="getAllOffice" resultType="com.jeeplus.modules.model.MapEntity">
+        select concat(id)  id,name,parent_id pId,
+               DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time
+        from sys_office
+    </select>
+
+    <update id="updateOffice">
+        update
+            sys_office
+        set name = #{name},parent_id = #{pId}
+        where id = #{id}
+    </update>
+
+    <delete id="deleteOfficeById">
+        delete
+        from sys_Office
+        where id = #{id}
+    </delete>
+
+    <insert id="insertOffice">
+        insert into sys_office(id, parent_id, name, create_date)
+        values (null, #{pId} ,#{name}, now())
+    </insert>
+
+</mapper>

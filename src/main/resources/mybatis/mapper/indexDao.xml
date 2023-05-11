@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jeeplus.modules.dao.IndexDao">
+
+
+    <insert id="insertHistoryData">
+
+        insert into sys_history_data(id, product_id, person_no, weigh_num, time)
+        VALUES (UUID_SHORT(), #{productId}, #{personNo}, #{weighNum}, now());
+    </insert>
+
+
+    <insert id="insertHistoryData2" parameterType="java.util.List">
+        insert into sys_history_data(id, product_id, person_no, weigh_num, time)
+        VALUES
+        <foreach collection="list" item="t" index="index" separator=",">
+            (UUID_SHORT(), #{t.productId}, #{t.personNo}, #{t.weighNum}, now())
+        </foreach>
+    </insert>
+
+    <select id="getHistoryByTimes" resultType="com.jeeplus.modules.model.MapEntity">
+
+        select *, date_format(time, '%Y-%m-%d %H:%i:%s') timeup
+        from sys_history_data h
+        where time &gt; (select max(time) from sys_uptime)
+
+
+    </select>
+
+
+    <update id="replaceProduct">
+
+        <foreach collection="list" item="t" index="index">
+            replace into sys_product(id, pro_type, product_name, specs, price, time, mark)
+            values (#{t.id}, #{t.pro_type}, #{t.product_name}, #{t.specs}, #{t.price}, #{t.createTime},#{t.mark});
+        </foreach>
+
+    </update>
+
+
+    <insert id="inputDatas" parameterType="java.util.List">
+        replace into sys_history_data(id, product_id, person_no, weigh_num, time)
+        VALUES
+        <foreach collection="list" item="t" index="index" separator=",">
+            (#{t.id}, #{t.product_id}, #{t.person_no}, #{t.weigh_num}, #{t.timeup})
+        </foreach>
+    </insert>
+
+
+    <insert id="inputPersons" parameterType="java.util.List">
+        REPLACE into sys_person ( person_no,name, card_no, office_id, phone, addr, time, mark)
+        values
+        <foreach collection="list" item="t" index="index" separator=",">
+        (#{person_no} , #{name}, #{card_no}, #{office_id}, #{phone}, #{addr}, #{time}, #{mark})
+        </foreach>
+    </insert>
+
+</mapper>

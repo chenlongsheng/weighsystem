@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jeeplus.modules.dao.ProductDao">
+
+
+    <select id="getAllPruducts" resultType="com.jeeplus.modules.model.MapEntity">
+        select *,
+        DATE_FORMAT(time, '%Y-%m-%d %H:%i:%s') createTime
+        from sys_product
+        <where>
+            <if test="productType !=null and productType!=''">
+                pro_type like concat('%',#{productType},'%')
+            </if>
+            <if test="productName !=null and productName!=''">
+                and product_name like concat('%',#{productName},'%')
+            </if>
+            <if test="specs !=null and specs!=''">
+                and specs like concat('%',#{specs},'%')
+            </if>
+        </where>
+        order by time desc
+    </select>
+
+
+    <update id="updatePruduct">
+        update
+            sys_product
+        set pro_type= #{productType},
+            product_name=#{productName},
+            specs=#{specs},
+            price = #{price}
+        where id = #{id}
+    </update>
+
+
+    <insert id="insertPruduct">
+        insert into sys_product(id, pro_type, product_name, specs, price, time, mark)
+        values (null, #{productType}, #{productName}, #{specs}, #{price}, NOW(), #{mark});
+    </insert>
+
+    <delete id="deletetPruduct">
+        delete
+        from sys_product
+        where id = #{id}
+    </delete>
+</mapper>

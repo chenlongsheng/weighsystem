@@ -1,0 +1,121 @@
+2023-04-11 11:13:53.170  INFO 15296 --- [main] c.jeeplus.modules.SpringbootApplication  : Starting SpringbootApplication on long with PID 15296 (D:\JavaSpace\weighsystem\target\classes started by admin in D:\JavaSpace\weighsystem)
+2023-04-11 11:13:53.173  INFO 15296 --- [main] c.jeeplus.modules.SpringbootApplication  : No active profile set, falling back to default profiles: default
+2023-04-11 11:13:53.753  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.jeeplus.modules.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$2fe00243] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.650  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.654  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$bf6b1f36] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.656  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.660  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.675  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.820  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.823  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.823  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.824  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.825  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.jeeplus.modules.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.827  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.855  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:54.861  INFO 15296 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 11:13:55.054  INFO 15296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-04-11 11:13:55.061  INFO 15296 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-11 11:13:55.061  INFO 15296 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-04-11 11:13:55.128  INFO 15296 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-11 11:13:55.128  INFO 15296 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1925 ms
+2023-04-11 11:13:55.265  INFO 15296 --- [main] c.j.m.threadPool.task.ExecutorConfig     : start asyncServiceExecutor
+2023-04-11 11:13:55.266  INFO 15296 --- [main] c.j.m.t.t.VisiableThreadPoolTaskExecutor : Initializing ExecutorService
+2023-04-11 11:13:55.269  INFO 15296 --- [main] c.j.m.t.t.VisiableThreadPoolTaskExecutor : Initializing ExecutorService 'asyncServiceExecutor'
+2023-04-11 11:13:56.098  INFO 15296 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-04-11 11:13:56.102  INFO 15296 --- [main] c.jeeplus.modules.SpringbootApplication  : Started SpringbootApplication in 3.237 seconds (JVM running for 4.519)
+2023-04-11 11:13:56.698  INFO 15296 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-11 11:13:56.698  INFO 15296 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-11 11:13:56.705  INFO 15296 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2023-04-11 11:13:56.770  INFO 15296 --- [http-nio-8070-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariPool - Starting...
+2023-04-11 11:13:56.917  INFO 15296 --- [http-nio-8070-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariPool - Start completed.
+2023-04-11 11:13:56.923 DEBUG 15296 --- [http-nio-8070-exec-1] c.j.m.d.S.getSalaryDetails               : ==>  Preparing: select concat( h.id ) id, sum(h.weigh_num) weighNum, DATE_FORMAT( h.time, '%Y-%m-%d' ) time, p.name personName, p.person_no personNo, pr.pro_type proType, pr.product_name productName, pr.specs, COUNT(*) count, pr.price, pr.price * sum(h.weigh_num) totalMoney from sys_history_data h inner join sys_person p on p.person_no = h.person_no inner join sys_product pr on pr.id = h.product_id GROUP BY h.person_no, pr.id, DATE_FORMAT( h.time, '%Y-%m-%d' ) order by h.time desc, p.person_no 
+2023-04-11 11:13:56.944 DEBUG 15296 --- [http-nio-8070-exec-1] c.j.m.d.S.getSalaryDetails               : ==> Parameters: 
+2023-04-11 11:13:56.962 DEBUG 15296 --- [http-nio-8070-exec-1] c.j.m.d.S.getSalaryDetails               : <==      Total: 5
+2023-04-11 11:14:05.705 DEBUG 15296 --- [http-nio-8070-exec-4] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:05.706 DEBUG 15296 --- [http-nio-8070-exec-4] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:05.707 DEBUG 15296 --- [http-nio-8070-exec-2] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:05.707 DEBUG 15296 --- [http-nio-8070-exec-2] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:05.710 DEBUG 15296 --- [http-nio-8070-exec-4] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:05.710 DEBUG 15296 --- [http-nio-8070-exec-2] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:15.950 DEBUG 15296 --- [http-nio-8070-exec-5] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:15.950 DEBUG 15296 --- [http-nio-8070-exec-3] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:15.950 DEBUG 15296 --- [http-nio-8070-exec-5] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:15.950 DEBUG 15296 --- [http-nio-8070-exec-3] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:15.955 DEBUG 15296 --- [http-nio-8070-exec-3] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:15.955 DEBUG 15296 --- [http-nio-8070-exec-5] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:23.799 DEBUG 15296 --- [http-nio-8070-exec-7] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:23.799 DEBUG 15296 --- [http-nio-8070-exec-6] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:23.800 DEBUG 15296 --- [http-nio-8070-exec-7] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:23.800 DEBUG 15296 --- [http-nio-8070-exec-6] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:23.804 DEBUG 15296 --- [http-nio-8070-exec-7] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:23.805 DEBUG 15296 --- [http-nio-8070-exec-6] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:29.860 DEBUG 15296 --- [http-nio-8070-exec-8] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:29.860 DEBUG 15296 --- [http-nio-8070-exec-9] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:29.861 DEBUG 15296 --- [http-nio-8070-exec-9] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:29.861 DEBUG 15296 --- [http-nio-8070-exec-8] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:29.867 DEBUG 15296 --- [http-nio-8070-exec-9] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:29.867 DEBUG 15296 --- [http-nio-8070-exec-8] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:35.743 DEBUG 15296 --- [http-nio-8070-exec-1] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:35.743 DEBUG 15296 --- [http-nio-8070-exec-10] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:35.743 DEBUG 15296 --- [http-nio-8070-exec-1] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:35.743 DEBUG 15296 --- [http-nio-8070-exec-10] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:35.748 DEBUG 15296 --- [http-nio-8070-exec-10] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:35.748 DEBUG 15296 --- [http-nio-8070-exec-1] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:42.854 DEBUG 15296 --- [http-nio-8070-exec-4] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:42.854 DEBUG 15296 --- [http-nio-8070-exec-4] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:42.858 DEBUG 15296 --- [http-nio-8070-exec-4] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:48.849 DEBUG 15296 --- [http-nio-8070-exec-2] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:48.849 DEBUG 15296 --- [http-nio-8070-exec-2] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:48.851 DEBUG 15296 --- [http-nio-8070-exec-3] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:14:48.852 DEBUG 15296 --- [http-nio-8070-exec-3] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:14:48.854 DEBUG 15296 --- [http-nio-8070-exec-2] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:14:48.857 DEBUG 15296 --- [http-nio-8070-exec-3] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:09.511 DEBUG 15296 --- [http-nio-8070-exec-7] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:09.511 DEBUG 15296 --- [http-nio-8070-exec-7] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:09.515 DEBUG 15296 --- [http-nio-8070-exec-7] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:16.568 DEBUG 15296 --- [http-nio-8070-exec-6] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:16.568 DEBUG 15296 --- [http-nio-8070-exec-9] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:16.569 DEBUG 15296 --- [http-nio-8070-exec-6] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:16.569 DEBUG 15296 --- [http-nio-8070-exec-9] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:16.573 DEBUG 15296 --- [http-nio-8070-exec-6] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:16.573 DEBUG 15296 --- [http-nio-8070-exec-9] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:22.100 DEBUG 15296 --- [http-nio-8070-exec-8] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:22.100 DEBUG 15296 --- [http-nio-8070-exec-10] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:22.100 DEBUG 15296 --- [http-nio-8070-exec-8] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:22.100 DEBUG 15296 --- [http-nio-8070-exec-10] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:22.105 DEBUG 15296 --- [http-nio-8070-exec-10] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:22.105 DEBUG 15296 --- [http-nio-8070-exec-8] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:27.943 DEBUG 15296 --- [http-nio-8070-exec-1] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:27.943 DEBUG 15296 --- [http-nio-8070-exec-4] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:27.943 DEBUG 15296 --- [http-nio-8070-exec-1] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:27.943 DEBUG 15296 --- [http-nio-8070-exec-4] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:27.953 DEBUG 15296 --- [http-nio-8070-exec-4] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:27.953 DEBUG 15296 --- [http-nio-8070-exec-1] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:32.483 DEBUG 15296 --- [http-nio-8070-exec-2] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:32.483 DEBUG 15296 --- [http-nio-8070-exec-3] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:32.483 DEBUG 15296 --- [http-nio-8070-exec-2] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:32.483 DEBUG 15296 --- [http-nio-8070-exec-3] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:32.487 DEBUG 15296 --- [http-nio-8070-exec-3] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:32.487 DEBUG 15296 --- [http-nio-8070-exec-2] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:47.749 DEBUG 15296 --- [http-nio-8070-exec-5] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:47.750 DEBUG 15296 --- [http-nio-8070-exec-5] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:47.756 DEBUG 15296 --- [http-nio-8070-exec-5] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:50.263 DEBUG 15296 --- [http-nio-8070-exec-7] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:50.263 DEBUG 15296 --- [http-nio-8070-exec-7] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:50.263 DEBUG 15296 --- [http-nio-8070-exec-9] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:50.264 DEBUG 15296 --- [http-nio-8070-exec-9] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:50.267 DEBUG 15296 --- [http-nio-8070-exec-9] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:50.267 DEBUG 15296 --- [http-nio-8070-exec-7] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:52.109 DEBUG 15296 --- [http-nio-8070-exec-10] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:52.109 DEBUG 15296 --- [http-nio-8070-exec-6] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:52.109 DEBUG 15296 --- [http-nio-8070-exec-10] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:52.109 DEBUG 15296 --- [http-nio-8070-exec-6] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:52.113 DEBUG 15296 --- [http-nio-8070-exec-6] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:52.113 DEBUG 15296 --- [http-nio-8070-exec-10] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:15:56.796 DEBUG 15296 --- [http-nio-8070-exec-8] c.j.modules.dao.OfficeDao.getAllOffice   : ==>  Preparing: select concat(id) id,name,parent_id pId, DATE_FORMAT(create_date,'%Y-%m-%d %H:%i:%s') time from sys_office 
+2023-04-11 11:15:56.796 DEBUG 15296 --- [http-nio-8070-exec-8] c.j.modules.dao.OfficeDao.getAllOffice   : ==> Parameters: 
+2023-04-11 11:15:56.800 DEBUG 15296 --- [http-nio-8070-exec-8] c.j.modules.dao.OfficeDao.getAllOffice   : <==      Total: 3
+2023-04-11 11:17:36.401  INFO 15296 --- [SpringContextShutdownHook] c.j.m.t.t.VisiableThreadPoolTaskExecutor : Shutting down ExecutorService 'asyncServiceExecutor'
+2023-04-11 11:17:36.402  INFO 15296 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariPool - Shutdown initiated...
+2023-04-11 11:17:36.405  INFO 15296 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariPool - Shutdown completed.

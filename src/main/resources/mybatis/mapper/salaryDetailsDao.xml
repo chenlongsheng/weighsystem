@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jeeplus.modules.dao.SalaryDetailsDao">
+
+
+    <select id="getSalaryDetails" resultType="com.jeeplus.modules.model.MapEntity">
+        select
+        concat( h.id ) id,
+        sum(h.weigh_num) weighNum,
+        DATE_FORMAT( h.time, '%Y-%m-%d' ) time,
+        p.name personName,
+        p.person_no personNo,
+        pr.pro_type proType,
+        pr.product_name productName,
+        pr.specs,
+        COUNT(*) count,
+        pr.price,
+        pr.price * sum(h.weigh_num)  totalMoney
+        from
+        sys_history_data h
+        inner join sys_person p on p.person_no = h.person_no
+        inner join sys_product pr on pr.id = h.product_id
+        <where>
+
+            <if test="personNo !=null and personNo !=''">
+                and p.person_no like concat('%',#{personNo},'%')
+            </if>
+            <if test="personName !=null and personName !=''">
+                and p.name like concat('%',#{personName},'%')
+            </if>
+            <if test="productName !=null and productName !=''">
+                and pr.product_name like concat('%',#{productName},'%')
+            </if>
+            <if test="specs !=null and specs !=''">
+                and pr.specs like concat('%',#{specs},'%')
+            </if>
+            <if test="proType !=null and proType !=''">
+                and pr.pro_type like concat('%',#{proType},'%')
+            </if>
+            <if test="time !=null and time !=''">
+                and  h.time &gt;= #{time} and h.time &lt;= concat(#{time},' 23:59:59')
+            </if>
+
+        </where>
+
+        GROUP BY
+        h.person_no,
+        pr.id,
+        DATE_FORMAT( h.time, '%Y-%m-%d' )
+        order by
+        h.time desc,
+        p.person_no,
+            h.id
+    </select>
+
+
+    <select id="getSalaryTotals" resultType="com.jeeplus.modules.model.MapEntity">
+        select
+        concat( h.id ) id,
+        sum(h.weigh_num) weighNum,
+        DATE_FORMAT( h.time, '%Y-%m-%d' ) time,
+
+        pr.pro_type proType,
+        pr.product_name productName,
+        pr.specs,
+        COUNT(*) count,
+        pr.price,
+        f.name officeName,
+        pr.price * sum(h.weigh_num)  totalMoney
+        from
+        sys_history_data h
+        inner join sys_person p on p.person_no = h.person_no
+        left join sys_office f on f.id = p.office_id
+        inner join sys_product pr on pr.id = h.product_id
+        <where>
+
+
+            <if test="officeName !=null and officeName !=''">
+                and f.name like concat('%',#{officeName},'%')
+            </if>
+            <if test="productName !=null and productName !=''">
+                and pr.product_name like concat('%',#{productName},'%')
+            </if>
+            <if test="specs !=null and specs !=''">
+                and pr.specs like concat('%',#{specs},'%')
+
+            </if>
+            <if test="proType !=null and proType !=''">
+                and pr.pro_type like concat('%',#{proType},'%')
+            </if>
+            <if test="time !=null and time !=''">
+                and  h.time &gt;= #{time} and h.time &lt;= concat(#{time},' 23:59:59')
+            </if>
+
+        </where>
+
+        GROUP BY
+        p.office_id,
+        pr.id,
+        DATE_FORMAT( h.time, '%Y-%m-%d' )
+        order by
+        h.time desc,
+        p.person_no
+    </select>
+
+
+</mapper>

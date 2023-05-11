@@ -1,0 +1,184 @@
+2023-04-11 10:42:43.516  INFO 17344 --- [main] c.jeeplus.modules.SpringbootApplication  : Starting SpringbootApplication on long with PID 17344 (D:\JavaSpace\weighsystem\target\classes started by admin in D:\JavaSpace\weighsystem)
+2023-04-11 10:42:43.520  INFO 17344 --- [main] c.jeeplus.modules.SpringbootApplication  : No active profile set, falling back to default profiles: default
+2023-04-11 10:42:44.570  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.jeeplus.modules.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$10e54eaa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.551  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.556  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$a0706b9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.557  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.562  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.579  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.755  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.760  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.760  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.761  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.762  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.jeeplus.modules.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.765  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.818  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:45.826  INFO 17344 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:42:46.093  INFO 17344 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-04-11 10:42:46.106  INFO 17344 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-11 10:42:46.106  INFO 17344 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-04-11 10:42:46.171  INFO 17344 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-11 10:42:46.172  INFO 17344 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2588 ms
+2023-04-11 10:42:46.246  WARN 17344 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'salaryDetailsService' defined in file [D:\JavaSpace\weighsystem\target\classes\com\jeeplus\modules\service\SalaryDetailsService.class]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2023-04-11 10:42:46.249  INFO 17344 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-11 10:42:46.256  INFO 17344 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-11 10:42:46.264 ERROR 17344 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'salaryDetailsService' defined in file [D:\JavaSpace\weighsystem\target\classes\com\jeeplus\modules\service\SalaryDetailsService.class]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.jeeplus.modules.SpringbootApplication.main(SpringbootApplication.java:12) [classes/:na]
+Caused by: java.lang.ExceptionInInitializerError: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 17 common frames omitted
+Caused by: java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+	at com.jeeplus.modules.service.SalaryDetailsService.<clinit>(SalaryDetailsService.java:30) ~[classes/:na]
+	... 24 common frames omitted
+
+2023-04-11 10:43:11.967  INFO 19784 --- [main] c.jeeplus.modules.SpringbootApplication  : Starting SpringbootApplication on long with PID 19784 (D:\JavaSpace\weighsystem\target\classes started by admin in D:\JavaSpace\weighsystem)
+2023-04-11 10:43:11.969  INFO 19784 --- [main] c.jeeplus.modules.SpringbootApplication  : No active profile set, falling back to default profiles: default
+2023-04-11 10:43:12.603  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.jeeplus.modules.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$4943bcb7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.511  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.515  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d8ced9aa] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.516  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.521  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.536  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.678  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.681  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.682  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.682  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.683  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.jeeplus.modules.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.685  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.711  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.717  INFO 19784 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:13.889  INFO 19784 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-04-11 10:43:13.895  INFO 19784 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-11 10:43:13.896  INFO 19784 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-04-11 10:43:13.961  INFO 19784 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-11 10:43:13.961  INFO 19784 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1959 ms
+2023-04-11 10:43:14.021  WARN 19784 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'salaryDetailsService' defined in file [D:\JavaSpace\weighsystem\target\classes\com\jeeplus\modules\service\SalaryDetailsService.class]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2023-04-11 10:43:14.024  INFO 19784 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-04-11 10:43:14.032  INFO 19784 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-11 10:43:14.040 ERROR 19784 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'salaryDetailsService' defined in file [D:\JavaSpace\weighsystem\target\classes\com\jeeplus\modules\service\SalaryDetailsService.class]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1320) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1214) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.2.RELEASE.jar:2.2.2.RELEASE]
+	at com.jeeplus.modules.SpringbootApplication.main(SpringbootApplication.java:12) [classes/:na]
+Caused by: java.lang.ExceptionInInitializerError: null
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_131]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_131]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_131]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_131]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:200) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1312) ~[spring-beans-5.2.2.RELEASE.jar:5.2.2.RELEASE]
+	... 17 common frames omitted
+Caused by: java.lang.ClassCastException: ch.qos.logback.classic.Logger cannot be cast to java.util.logging.Logger
+	at com.jeeplus.modules.service.SalaryDetailsService.<clinit>(SalaryDetailsService.java:30) ~[classes/:na]
+	... 24 common frames omitted
+
+2023-04-11 10:43:35.312  INFO 21340 --- [main] c.jeeplus.modules.SpringbootApplication  : Starting SpringbootApplication on long with PID 21340 (D:\JavaSpace\weighsystem\target\classes started by admin in D:\JavaSpace\weighsystem)
+2023-04-11 10:43:35.314  INFO 21340 --- [main] c.jeeplus.modules.SpringbootApplication  : No active profile set, falling back to default profiles: default
+2023-04-11 10:43:35.960  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.jeeplus.modules.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$4860bae9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:36.857  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:36.861  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$d7ebd7dc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:36.862  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:36.867  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:36.882  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:37.223  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:37.229  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:37.229  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:37.230  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:37.231  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.jeeplus.modules.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:37.234  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:37.288  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:37.305  INFO 21340 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:43:37.642  INFO 21340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-04-11 10:43:37.657  INFO 21340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-11 10:43:37.658  INFO 21340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-04-11 10:43:37.829  INFO 21340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-11 10:43:37.829  INFO 21340 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2486 ms
+2023-04-11 10:43:38.070  INFO 21340 --- [main] c.j.m.threadPool.task.ExecutorConfig     : start asyncServiceExecutor
+2023-04-11 10:43:38.071  INFO 21340 --- [main] c.j.m.t.t.VisiableThreadPoolTaskExecutor : Initializing ExecutorService
+2023-04-11 10:43:38.074  INFO 21340 --- [main] c.j.m.t.t.VisiableThreadPoolTaskExecutor : Initializing ExecutorService 'asyncServiceExecutor'
+2023-04-11 10:43:38.842  INFO 21340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-04-11 10:43:38.844  INFO 21340 --- [main] c.jeeplus.modules.SpringbootApplication  : Started SpringbootApplication in 3.833 seconds (JVM running for 5.187)
+2023-04-11 10:48:12.288  INFO 21340 --- [SpringContextShutdownHook] c.j.m.t.t.VisiableThreadPoolTaskExecutor : Shutting down ExecutorService 'asyncServiceExecutor'
+2023-04-11 10:48:16.783  INFO 20756 --- [main] c.jeeplus.modules.SpringbootApplication  : Starting SpringbootApplication on long with PID 20756 (D:\JavaSpace\weighsystem\target\classes started by admin in D:\JavaSpace\weighsystem)
+2023-04-11 10:48:16.786  INFO 20756 --- [main] c.jeeplus.modules.SpringbootApplication  : No active profile set, falling back to default profiles: default
+2023-04-11 10:48:17.390  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'shiroConfig' of type [com.jeeplus.modules.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$bfa98299] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.271  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'mybatis-org.mybatis.spring.boot.autoconfigure.MybatisProperties' of type [org.mybatis.spring.boot.autoconfigure.MybatisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.274  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration' of type [org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration$$EnhancerBySpringCGLIB$$4f349f8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.276  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.280  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.296  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'dataSource' of type [com.zaxxer.hikari.HikariDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.437  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.440  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.440  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.441  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'userPDao' of type [com.sun.proxy.$Proxy66] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.441  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'customRealm' of type [com.jeeplus.modules.shiro.CustomRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.444  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.477  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.483  INFO 20756 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-04-11 10:48:18.652  INFO 20756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-04-11 10:48:18.658  INFO 20756 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-04-11 10:48:18.659  INFO 20756 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2023-04-11 10:48:18.722  INFO 20756 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-04-11 10:48:18.722  INFO 20756 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1905 ms
+2023-04-11 10:48:18.806  INFO 20756 --- [main] c.j.m.threadPool.task.ExecutorConfig     : start asyncServiceExecutor
+2023-04-11 10:48:18.807  INFO 20756 --- [main] c.j.m.t.t.VisiableThreadPoolTaskExecutor : Initializing ExecutorService
+2023-04-11 10:48:18.808  INFO 20756 --- [main] c.j.m.t.t.VisiableThreadPoolTaskExecutor : Initializing ExecutorService 'asyncServiceExecutor'
+2023-04-11 10:48:19.170  INFO 20756 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-04-11 10:48:19.172  INFO 20756 --- [main] c.jeeplus.modules.SpringbootApplication  : Started SpringbootApplication in 2.673 seconds (JVM running for 4.039)
+2023-04-11 10:48:25.231  INFO 20756 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-11 10:48:25.232  INFO 20756 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-04-11 10:48:25.238  INFO 20756 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2023-04-11 10:48:25.300  INFO 20756 --- [http-nio-8070-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariPool - Starting...
+2023-04-11 10:48:25.437  INFO 20756 --- [http-nio-8070-exec-1] com.zaxxer.hikari.HikariDataSource       : hikariPool - Start completed.
+2023-04-11 10:48:25.442 DEBUG 20756 --- [http-nio-8070-exec-1] c.j.m.d.S.getSalaryDetails               : ==>  Preparing: select concat( h.id ) id, sum(h.weigh_num) weighNum, DATE_FORMAT( h.time, '%Y-%m-%d' ) time, p.name personName, p.person_no personNo, pr.pro_type proType, pr.product_name productName, pr.specs, COUNT(*) count, pr.price, pr.price * sum(h.weigh_num) totalMoney from sys_history_data h inner join sys_person p on p.person_no = h.person_no inner join sys_product pr on pr.id = h.product_id GROUP BY h.person_no, pr.id, DATE_FORMAT( h.time, '%Y-%m-%d' ) order by h.time desc, p.person_no 
+2023-04-11 10:48:25.457 DEBUG 20756 --- [http-nio-8070-exec-1] c.j.m.d.S.getSalaryDetails               : ==> Parameters: 
+2023-04-11 10:48:25.475 DEBUG 20756 --- [http-nio-8070-exec-1] c.j.m.d.S.getSalaryDetails               : <==      Total: 5
+2023-04-11 10:49:12.788  INFO 20756 --- [SpringContextShutdownHook] c.j.m.t.t.VisiableThreadPoolTaskExecutor : Shutting down ExecutorService 'asyncServiceExecutor'
+2023-04-11 10:49:12.789  INFO 20756 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariPool - Shutdown initiated...
+2023-04-11 10:49:12.796  INFO 20756 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : hikariPool - Shutdown completed.

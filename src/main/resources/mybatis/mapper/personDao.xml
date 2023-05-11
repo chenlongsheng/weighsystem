@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jeeplus.modules.dao.PersonDao">
+
+
+    <select id="getAllPerson" resultType="com.jeeplus.modules.model.MapEntity">
+        select p.name,person_no,card_no,office_id,f.name officeName,phone,addr,date_format(time,'%Y-%m-%d %H:%i:%s') time,mark
+        from sys_person p left join sys_office f on f.id = p.office_id
+        <where>
+            <if test="officeId !=null and officeId !=''">
+                and p.office_id = #{officeId}
+            </if>
+            <if test="name !=null and name !=''">
+                and p.name like concat('%',#{name},'%')
+            </if>
+            <if test="cardNo !=null and cardNo !=''">
+                and p.card_no = #{cardNo}
+            </if>
+        </where>
+        order by p.time desc
+    </select>
+
+
+    <insert id="insertPerson">
+        REPLACE into sys_person ( person_no,name, card_no, office_id, phone, addr, time, mark)
+        values (#{person_no} , #{name},  #{card_no}, #{office_id}, #{phone}, #{addr},
+        <if test="id !=null and id !=''">
+            #{time},
+        </if>
+        <if test="id ==null or id ==''">
+            now(),
+        </if>
+        #{mark});
+    </insert>
+
+    <delete id="deletePersonById">
+        delete  from sys_person  where person_no = #{person_no}
+    </delete>
+
+</mapper>
